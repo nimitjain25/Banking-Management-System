@@ -1,0 +1,16 @@
+# Compiled class files
+*.class
+bin/
+
+# Persistence & runtime data
+data/
+*.dat
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
