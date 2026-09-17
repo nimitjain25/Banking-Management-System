@@ -1,0 +1,760 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+5 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 595.28 841.89]
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+   /Contents 6 0 R
+>>
+endobj
+6 0 obj
+<< /Length 2115 >>
+stream
+BT
+/F2 13.00 Tf
+0 0 0 rg
+72.00 760.00 Td
+(Name :- Nimit jain) Tj
+ET
+BT
+/F2 13.00 Tf
+0 0 0 rg
+72.00 734.00 Td
+(Reg.No :- 25BAI10840) Tj
+ET
+BT
+/F2 13.00 Tf
+0 0 0 rg
+72.00 708.00 Td
+(Branch :- CSE\(AIML\)) Tj
+ET
+BT
+/F2 13.00 Tf
+0 0 0 rg
+72.00 682.00 Td
+(Faculty :-Dr J. Sharmila Joseph) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+230.00 636.00 Td
+(VIT BHOPAL) Tj
+ET
+BT
+/F1 13.00 Tf
+0 0 0 rg
+215.00 606.00 Td
+(PROJECT REPORT) Tj
+ET
+BT
+/F2 14.00 Tf
+0 0 0 rg
+72.00 556.00 Td
+(Title :- Banking-Management-System) Tj
+ET
+BT
+/F2 13.00 Tf
+0 0 0 rg
+72.00 520.00 Td
+(Introduction:-) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 496.00 Td
+(This project, the Banking Management System is a console-based application) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 477.00 Td
+(developed using the Java programming language. It is designed to simulate) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 458.00 Td
+(a fundamental core banking and account management system for a small branch,) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 439.00 Td
+(credit union, or financial unit. The core objective is to demonstrate the mastery of) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 420.00 Td
+(introductory and intermediate Computer Science principles, including modular) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 401.00 Td
+(programming, object-oriented design, fundamental data structures \(Collections and) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 382.00 Td
+(Maps\), and persistent data management through file input/output \(I/O\). A key feature) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 363.00 Td
+(of the application is the robust implementation of explicit input validation and business) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 344.00 Td
+(rule enforcement using control flow, ensuring data integrity without relying on external) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 325.00 Td
+(database software. The application allows users to open accounts, deposit funds,) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 306.00 Td
+(withdraw cash, perform inter-account transfers, and generate transaction statements,) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 287.00 Td
+(providing essential balance alerts and financial tracking.) Tj
+ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 595.28 841.89]
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+   /Contents 8 0 R
+>>
+endobj
+8 0 obj
+<< /Length 2518 >>
+stream
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 760.00 Td
+(Problem Statement) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 736.00 Td
+(Manual banking record keeping and financial tracking \(using spreadsheets or paper) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 717.00 Td
+(ledgers\) is highly inefficient, prone to human calculation errors, and lacks the ability) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 698.00 Td
+(to provide real-time status updates. Errors in tracking balances and transactions can) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 679.00 Td
+(lead to critical discrepancies, unauthorized overdrafts, and operational losses.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 644.00 Td
+(Proposed Solution) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 620.00 Td
+(The Banking Management System provides a simple, menu-driven interface) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 601.00 Td
+(accessible via the console. This solution automates the processes of recording banking) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 582.00 Td
+(transactions and utilizes a data file for persistence. This approach prioritizes) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 563.00 Td
+(simplicity, reliability, and clear demonstration of core programming logic over complex) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 544.00 Td
+(graphical interfaces or external database management systems.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 509.00 Td
+(Data Structure Design) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 485.00 Td
+(The banking data is stored within Java as structured object models, leveraging the) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 466.00 Td
+(efficiency of the Java Collections Framework:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 447.00 Td
+(- Outer Structure \(Accounts\): A master Map where the Account Number \(a string) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 428.00 Td
+(  such as "SB-1001" or "CA-2001"\) acts as the unique key.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 409.00 Td
+(- Inner Structure \(Details\): The value associated with the key is an Account object) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 390.00 Td
+(  containing encapsulated account details:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 371.00 Td
+(  o 'accountHolderName': A string representing customer name.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 352.00 Td
+(  o 'balance': A double tracking current monetary balance.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 333.00 Td
+(  o 'hashedPin': A string storing salted SHA-256 password hash.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 314.00 Td
+(  o 'transactions': A List storing chronological Transaction records.) Tj
+ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 595.28 841.89]
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+   /Contents 10 0 R
+>>
+endobj
+10 0 obj
+<< /Length 2538 >>
+stream
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 760.00 Td
+(Goal of this program:-) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 736.00 Td
+(The main goal of the program is to provide an account management system for small) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 717.00 Td
+(banking units, cooperative branches, and clients to keep track of their balances and) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 698.00 Td
+(transactions. Using a simple menu-driven approach and direct accessing methods, this) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 679.00 Td
+(becomes an easy to understand program and thus is of practical real world use too. This) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 660.00 Td
+(system of management reduces the errors made by humans and keeps track of any) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 641.00 Td
+(account activity to fulfill requests immediately.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 606.00 Td
+(Explanation of the Program:-) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 582.00 Td
+(This program begins by organizing domain logic across clean Java classes. The) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 563.00 Td
+(java.io package provides classes to interact with files on the filesystem in a portable) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 544.00 Td
+(way. Here we use object streams to interact with the data files of the operating system) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 525.00 Td
+(to store the state of accounts and access them as and when required by us. We then create) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 506.00 Td
+(several methods that contain the working of how accounts are accessed to get the) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 487.00 Td
+(balances or to store and update the values of transactions in them. The program is) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 468.00 Td
+(mainly built with the help of loops, if-else constructs, and basic console input/output) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 449.00 Td
+(statements to get the values. The program also verifies security PINs before releasing) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 430.00 Td
+(funds to prevent unauthorized access. The application is entirely menu-driven and) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 411.00 Td
+(implements the following essential banking features:) Tj
+ET
+BT
+/F2 11.50 Tf
+0 0 0 rg
+72.00 384.00 Td
+(Data Persistence:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+177.00 384.00 Td
+(Utilizes a standard file \(bank_data.dat\) to load and save all account) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 365.00 Td
+(data, ensuring that account information is retained between program executions.) Tj
+ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 595.28 841.89]
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+   /Contents 12 0 R
+>>
+endobj
+12 0 obj
+<< /Length 2580 >>
+stream
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 760.00 Td
+(executions.) Tj
+ET
+BT
+/F2 11.50 Tf
+0 0 0 rg
+72.00 736.00 Td
+(Account Management:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+202.00 736.00 Td
+(Allows users to open new accounts \(Savings Account with) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 717.00 Td
+(initial deposit and interest rate, or Current Account with overdraft limit\) and update) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 698.00 Td
+(balances via deposits, cash withdrawals, and inter-account transfers.) Tj
+ET
+BT
+/F2 11.50 Tf
+0 0 0 rg
+72.00 674.00 Td
+(Input Validation:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+172.00 674.00 Td
+(Employs explicit if/else logic to ensure that all inputs, particularly) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 655.00 Td
+(transaction amounts, are valid positive numbers, preventing logical errors.) Tj
+ET
+BT
+/F2 11.50 Tf
+0 0 0 rg
+72.00 631.00 Td
+(Balance Restrictions & Alerts:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+247.00 631.00 Td
+(Automatically checks if a savings balance falls below) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 612.00 Td
+(the minimum balance \($100.00\) or if a current account exceeds its overdraft limit,) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 593.00 Td
+(aiding in maintaining financial solvency.) Tj
+ET
+BT
+/F2 11.50 Tf
+0 0 0 rg
+72.00 569.00 Td
+(Reporting:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+137.00 569.00 Td
+(Displays account statements and transaction histories in a clear, formatted) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 550.00 Td
+(tabular view directly in the console.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 522.00 Td
+(Results) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 498.00 Td
+(This application successfully manages the banking operations, providing a functional,) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 479.00 Td
+(persistent, and reliable text interface that accurately reflects real-world banking) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 460.00 Td
+(scenarios.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 425.00 Td
+(Conclusion:-) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 401.00 Td
+(The Banking Management System project is a successful demonstration of core) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 382.00 Td
+(programming proficiency in Java. It effectively utilizes object-oriented principles for) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 363.00 Td
+(data organization, methods for modular design, and robust if/else conditional logic for) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 344.00 Td
+(comprehensive input and security validation. The successful implementation of data) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 325.00 Td
+(persistence confirms the student's understanding of File I/O and) Tj
+ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 595.28 841.89]
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+   /Contents 14 0 R
+>>
+endobj
+14 0 obj
+<< /Length 2435 >>
+stream
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 760.00 Td
+(fundamental application design.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 734.00 Td
+(What I learnt in this project:-) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 710.00 Td
+(While making this project on banking management, I learnt the use of the java.io) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 691.00 Td
+(package and how it interacts with the Java program to store values so that they can be) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 672.00 Td
+(accessed anytime when needed. I gained the knowledge of how to store files in the) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 653.00 Td
+(directories of the system and can be used as an information management system also.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 634.00 Td
+(I also learnt a broader use of if-else and looping constructs. While working out the) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 615.00 Td
+(program, I also got to know about try-catch type of constructs and got to know how it) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 596.00 Td
+(handles exceptions cleanly without stopping the program abruptly, allowing error) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 577.00 Td
+(detection quickly without excessive nested logic statements.) Tj
+ET
+BT
+/F2 15.00 Tf
+0 0 0 rg
+72.00 538.00 Td
+(Future Scope) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 514.00 Td
+(To evolve this project beyond the introductory level, the following enhancements) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 495.00 Td
+(could be implemented:) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 471.00 Td
+(1. Database Migration: Replace file storage with a relational database \(e.g., SQLite) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 452.00 Td
+(   or MySQL\) for better query performance and structured data management.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 425.00 Td
+(2. Graphical User Interface \(GUI\): Implement a desktop interface using libraries) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 406.00 Td
+(   such as Swing or JavaFX to improve user experience.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 379.00 Td
+(3. Advanced Alerting: Integrate functions to check and alert the user about low balances) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 360.00 Td
+(   or overdraft usage via email or SMS notifications.) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 333.00 Td
+(4. Reporting: Add the ability to generate printable reports \(e.g., PDF or CSV\) of all) Tj
+ET
+BT
+/F1 11.50 Tf
+0 0 0 rg
+72.00 314.00 Td
+(   recent transactions or bank liquidity audits.) Tj
+ET
+
+endstream
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000149 00000 n 
+0000000221 00000 n 
+0000000292 00000 n 
+0000000446 00000 n 
+0000002613 00000 n 
+0000002767 00000 n 
+0000005337 00000 n 
+0000005492 00000 n 
+0000008083 00000 n 
+0000008239 00000 n 
+0000010872 00000 n 
+0000011028 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R >>
+startxref
+13516
+%%EOF
